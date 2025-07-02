@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c38cd2f7-1494-409e-afb4-9ce5d2a376f2" name="Changes" comment="feat/example: 001-通用并发处理工具类">
-      <change afterPath="$PROJECT_DIR$/nooops-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_002/src/main/java/cn/nooops/example_2/EmployeeHierarchyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_002/src/main/resources/exployees.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_003/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nooops-examples/examples_003/src/main/java/com/cccs7/thread/ThreadPoolExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nooops-examples/examples_002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nooops-examples/examples_002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nooops-examples/examples_002/src/main/java/cn/nooops/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nooops-examples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nooops-examples/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -55,6 +60,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\dev-workspace\apache-maven-3.8.8\repo" />
+        <option name="userSettingsFile" value="G:\dev-workspace\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -66,25 +79,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SimpleBatchTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskDisposeUtils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project-repo/lao_gao&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EmployeeHierarchyPrinter.executor": "Run",
+    "Application.SimpleBatchTask.executor": "Run",
+    "Application.TaskDisposeUtils.executor": "Run",
+    "Application.ThreadPoolExample.executor": "Run",
+    "Maven.develop-examples [clean].executor": "Run",
+    "Maven.examples_002 [clean].executor": "Run",
+    "Maven.nooops-ai-base [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/project-repo/develop-examples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TaskDisposeUtils">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\project-repo\develop-examples\nooops-examples\examples_002\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ThreadPoolExample">
+    <configuration name="EmployeeHierarchyPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.nooops.example_2.EmployeeHierarchyPrinter" />
+      <module name="examples_002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.nooops.example_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleBatchTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.nooops.examples.SimpleBatchTask" />
       <module name="examples_001" />
@@ -111,8 +148,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cccs7.thread.ThreadPoolExample" />
+      <module name="examples_003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cccs7.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolExample" />
+        <item itemvalue="Application.EmployeeHierarchyPrinter" />
         <item itemvalue="Application.TaskDisposeUtils" />
         <item itemvalue="Application.SimpleBatchTask" />
       </list>
@@ -130,6 +182,8 @@
       <workItem from="1748958264755" duration="21000" />
       <workItem from="1749545682994" duration="3001000" />
       <workItem from="1749789904132" duration="5827000" />
+      <workItem from="1750578617491" duration="3287000" />
+      <workItem from="1750658172318" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="feat/example: 001-通用并发处理工具类">
       <option name="closed" value="true" />
